@@ -1,0 +1,23 @@
+<h2>Heterochromia Reborn Patcher</h2>
+<span class="input-label" style="display: inline-block; min-width: 400px; padding-right: 5px;" title="Read this">Removing eye records from the vanilla slider prevents issues with overlapping eyes. If you want to leave them in the slider anyway, uncheck both boxes.</span>
+<section>
+	<label>
+		<span class="input-label" title="Settings to remove Eye records">Eye records to remove from Vanilla slider:</span>
+	</label>
+	<label>
+		<input type="checkbox" ng-model="settings.NK_HeterochromiaRebornPatcher.disableVanilla">Vanilla Eye Sets</input>
+	</label>
+	<label>
+		<input type="checkbox" ng-model="settings.NK_HeterochromiaRebornPatcher.disableModded">Modded Eye Sets</input>
+	</label>
+	<span class="input-label" style="display: inline-block; min-width: 400px; padding-right: 5px;" title="Read this">Leave Modded eye sets unchecked and just disable the original mods' .esp files to save plugin room. Only check this if you need the original .esp for something like a follower mod.</span>
+</section>
+<span class="input-label" style="display: inline-block; min-width: 400px; padding-right: 5px;" title="Read this">You can have the patcher ignore Vanilla texture sets if you only want to have modded eyes show up in the new sliders, or if you want this to be an addon plugin that you can distribute - see instructions doc for more on this.</span>
+<section>
+	<label>
+		<span class="input-label" title="Settings to ignore Texture Sets">Texture Sets to ignore:</span>
+	</label>
+	<label>
+		<input type="checkbox" ng-model="settings.NK_HeterochromiaRebornPatcher.ignoreVanillaTXSTs">Vanilla Eye Sets</input>
+	</label>
+</section>

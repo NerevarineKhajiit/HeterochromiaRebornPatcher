@@ -1,0 +1,12 @@
+{
+  "id": "NK_HeterochromiaRebornPatcher",
+  "name": "HeterochromiaRebornPatcher",
+  "author": "NerevarineKhajiit",
+  "version": "1.0.0",
+  "released": "10/1/2020",
+  "updated": "10/1/2020",
+  "description": "A patcher that finds viable texture sets for Eyes and creates new records for use in new Racemenu Left Eye and Right Eye sliders.",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}
